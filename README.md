@@ -39,6 +39,7 @@ records.js contine urmatoarele metode:
 •	addRecord: o metoda POST pentru a adauga o noua campanie in baza de date
 •	deleteRecord: o metoda DELETE pentru a sterge o campanie din baza de date
 
+Baza de date este constituita in cloud si este gazduita pe mongodb la adresa [https://cloud.mongodb.com/v2#/org/644e6f6a7f401630ccaaf2ff/projects].
 
 ## Autentificare si securitate
 
