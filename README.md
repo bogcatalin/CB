@@ -3,7 +3,8 @@
 
 Titlu: Aplicatie magazin online produse alimentare
 Student: Bogdan Catalin Iulian
-Grupa: 1119
+Grupa: 1119, SIMPRE An 1
+Link publicare Youtube: [https://www.youtube.com/watch?v=rNkQgPOfAvM]
 
 
 ## Introducere
@@ -80,14 +81,14 @@ Pentru a implementa si gazdui aplicatia noastra, am folosit Vercel, o platforma 
 
 Aplicatia noastra este scalabila la nivel de baze de date MongoDB, deoarece poate fi configurata sa utilizeze un cluster MongoDB care poate fi scalat orizontal. In plus, Vercel ofera un nivel de scalabilitate pentru aplicatia noastra, permitandu-ne sa gestionam volumul de trafic si sa scalabil orizontal in functie de necesitatile aplicatiei.
 
-Deployment-ul se afla la adresa [https://vercel.com/bogcatalin].
+Deployment-ul se afla la adresa [https://vercel.com/bogcatalin], [https://cb-five.vercel.app/].
 
 
 ## Componenta de chat
 
 Aplicatia contine si o componenta de chat [http://localhost:3000/chat] care ii permite utilizatorului sa adreseze intrebari.
 
-Asistentul este configurat sa raspunda conform unui rol asociat (in cazul nostru Jon Snow din Game of Thrones) care poate fi modificat in functie de scopul propus.
+Asistentul este configurat sa raspunda conform unui rol asociat (in cazul nostru Jon Snow din Game of Thrones) care poate fi modificat in functie de scopul propus, si este deployat si in vercel la adresa [https://cb-five.vercel.app/chat].
 
 
 
