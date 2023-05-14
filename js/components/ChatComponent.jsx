@@ -53,7 +53,7 @@ function ChatComponent(props) {
 					},
 					body: JSON.stringify({
 						messages: filteredChatHistory,
-						type: 'michael_scott',
+						type: 'jon_snow',
 					}),
 					signal: AbortSignal.timeout(20000),
 				});
@@ -77,7 +77,7 @@ function ChatComponent(props) {
 			<div className={"border border-b-0 rounded-lg border-gray-300'"}>
 				<div className={'border-b text-center px-[20px] py-[10px]'}>
 					<span className={'text-md font-bold text-gray-900'}>
-						This a chat component that looks like Yahoo!
+						This is a chat component that looks like the Wall in Game of Thrones!
 					</span>
 				</div>
 				<MessageBox chatMessages={chatMessages}/>
